@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+  #w-wrapper {
+    width: 90%;
+  }
+
+  #header-top {
+    justify-content: center;
+  }
+
+  .text h1 {
+    font-size: 40px;
+    margin-top: 50%;
+  }
+  #datadiv {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .image-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content h4 {
+    font-size: 13px;
+  }
+
+  .content .right {
+    font-size: 13px;
+  }
+
+  .content-h1 {
+    font-size: 25px;
+    margin: 20px 0;
+  }
+}
