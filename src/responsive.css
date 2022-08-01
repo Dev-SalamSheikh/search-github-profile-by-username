@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
   #w-wrapper {
-    width: 90%;
+    width: 80%;
   }
 
   #header-top {
@@ -16,9 +16,15 @@
     margin-top: 2rem;
   }
 
+  #datadiv div {
+    flex-wrap: wrap;
+  }
+
   .image-div {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .content h4 {
